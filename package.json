@@ -1,0 +1,14 @@
+{
+  "name": "@dominion-framework/repository-mysql",
+  "version": "0.2.0",
+  "description": "Dominion model's repository for MySQL database.",
+  "main": "src/index.js",
+  "dependencies": {
+    "mysql2": "^1.6.5"
+  },
+  "author": {
+    "name": "Yura Chaikovsky",
+    "email": "yura.chaikovsky#gmail.com"
+  },
+  "license": "MIT"
+}
