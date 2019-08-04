@@ -2,13 +2,31 @@
   "name": "@dominion-framework/repository-mysql",
   "version": "0.2.0",
   "description": "Dominion model's repository for MySQL database.",
+  "homepage": "https://dominion.js.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dominion-framework/repository-mysql"
+  },
+  "bugs": {
+    "url": "https://github.com/dominion-framework/repository-mysql/issues"
+  },
+  "keywords": [
+    "Node.js",
+    "api",
+    "rest",
+    "restfull",
+    "framework",
+    "promise",
+    "repository",
+    "mysql"
+  ],
   "main": "src/index.js",
   "dependencies": {
     "mysql2": "^1.6.5"
   },
   "author": {
     "name": "Yura Chaikovsky",
-    "email": "yura.chaikovsky#gmail.com"
+    "email": "yura.chaikovsky@gmail.com"
   },
   "license": "MIT"
 }
