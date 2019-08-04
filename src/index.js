@@ -1,4 +1,4 @@
-const Errors                    = require("dominion/core/errors");
+const Errors                    = require("@dominion-framework/dominion/core/errors");
 const RepositoryPrototype       = require("./repositoryPrototype");
 
 
