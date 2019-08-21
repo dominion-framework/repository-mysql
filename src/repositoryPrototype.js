@@ -1,4 +1,4 @@
-const DBConnectionPool          = require('./db');
+const DBConnectionPool          = require("./connection");
 
 module.exports = class Repository {
 
