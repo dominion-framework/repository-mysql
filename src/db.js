@@ -1,6 +1,6 @@
 const Config                    = require.main.require("./config");
 const Errors                    = require("@dominion-framework/dominion/core/errors");
-const mysql                     = require('mysql2/promise');
+const mysql                     = require("mysql2/promise");
 
 
 const connections = new Map();
