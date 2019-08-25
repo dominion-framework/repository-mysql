@@ -7,7 +7,7 @@ const connections = new Map();
 
 function ConnectionPools(config = Config.database) {
     if(!config) {
-        throw new Errors.Fatal(`Database connection string is missing. Please add property 'database: "mysql://[user]:[password]@[host]/[db_name]"' into project configuration file.`);
+        throw new Errors.Fatal(`MySQL database connection string is missing. Please add property 'database: "mysql://[user]:[password]@[host]/[db_name]"' into the project configuration file.`);
     }
     if (!connections.has(config)) {
         const pool = mysql.createPool(config);
