@@ -6,7 +6,7 @@ module.exports = class Repository {
         this.db = new DBConnectionPool();
     }
 
-    find (criteria, limit, offset, order) {
+    find (criteria, offset, limit, order) {
         let fields = Object.keys(criteria);
         let condition = 'WHERE `' + fields.join('` = ? AND `') + '` = ?';
         let parameters = fields.map(field => typeof criteria[field] == 'object' ? JSON.stringify(criteria[field]) : criteria[field]);
