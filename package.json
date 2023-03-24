@@ -1,6 +1,6 @@
 {
   "name": "@dominion-framework/repository-mysql",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Dominion model's repository for MySQL database.",
   "homepage": "https://dominion.js.org",
   "repository": {
