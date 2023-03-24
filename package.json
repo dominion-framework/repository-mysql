@@ -22,7 +22,7 @@
   ],
   "main": "src/index.js",
   "dependencies": {
-    "mysql2": "^1.6.5"
+    "mysql2": "^3.2.0"
   },
   "author": {
     "name": "Yura Chaikovsky",
